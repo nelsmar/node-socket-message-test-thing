@@ -1,0 +1,19 @@
+{
+  "name": "node-socket-message-test-thing",
+  "version": "1.0.0",
+  "description": "Sample socketio + mongodb tailing cursor thingy",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.7",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Marin Nelson <marin@marinnelson.com>",
+  "license": "ISC"
+}
